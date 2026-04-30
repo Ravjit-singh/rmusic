@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+  <meta name="theme-color" content="#05080c">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#05080c">
+    
+    <!-- 🚀 SEO Meta Tags -->
+    <title>RMusic | Secure Cloud Player</title>
+    <meta name="description" content="A premium, glassmorphic cloud music player. Stream curated moods and custom playlists securely with live visualizers.">
+    <meta name="keywords" content="music player, cloud streaming, RMusic, god-tier UI, glassmorphism, web app">
+    <meta name="author" content="Ravjit Singh">
+
+    <!-- 📱 Open Graph / Social Media Embeds -->
+    <meta property="og:title" content="RMusic | Secure Cloud Player">
+    <meta property="og:description" content="Experience music with a fluid, native-grade UI. Securely stream custom playlists and curated moods.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ravjit-singh.github.io/"> <!-- Update if you put it in a subfolder -->
+
+    <style>
+        /* Reset everything to ensure zero gaps or scrolling on the parent */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Prevents double scrollbars */
+            background-color: #05080c; /* Matches your app's bottom background */
+        }
+
+        /* Perfectly fitted fullscreen iframe */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- The Render URL is embedded here with full media permissions -->
+    <iframe 
+        src="https://rmusic-u180.onrender.com" 
+        title="RMusic Player"
+        allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
